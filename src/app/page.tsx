@@ -82,7 +82,7 @@ export default function HomePage() {
               <CardDescription>{link.description}</CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col gap-2 md:flex-row">
-              <Button asChild className="w-1/2" variant="outline">
+              <Button asChild className="md:w-1/2" variant="outline">
                 <a
                   href={link.primraryUrl}
                   target="_blank"
@@ -94,7 +94,7 @@ export default function HomePage() {
                 </a>
               </Button>
               {link.secondaryUrl && (
-                <Button asChild className="w-1/2" variant="default">
+                <Button asChild className="md:w-1/2" variant="default">
                   <a
                     href={link.secondaryUrl}
                     target="_blank"
