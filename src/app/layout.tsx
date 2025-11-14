@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Bermuda Tennis",
   description: "Bermuda Tennis",
   icons: {
-    icon: [{ url: "/favicon-64x64.png", sizes: "64x64", type: "image/png" }],
+    icon: [{ url: "/favicon.png", sizes: "64x64", type: "image/png" }],
   },
 };
 
